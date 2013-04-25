@@ -1,0 +1,25 @@
+.clearfix, .clearfix:before, .clearfix:after   { clear: both; }
+
+.columns    { float: left; }
+
+.one        { width:   8.33333333333%; }
+.two        { width:  16.66666666667%; }
+.three      { width:  25.00000000000%; }
+.four       { width:  33.33333333333%; }
+.five       { width:  41.66666666667%; }
+.six        { width:  50.00000000000%; }
+.seven      { width:  58.33333333333%; }
+.eight      { width:  66.66666666667%; }
+.nine       { width:  75.00000000000%; }
+.ten        { width:  83.33333333333%; }
+.eleven     { width:  91.66666666667%; }
+.twelve     { width: 100.00000000000%; }
+
+.container  { margin: 0 auto; max-width: 90% }
+
+.full         { width: 960px; }
+.second-half  { width: 720px; }
+.half         { width: 480px; }
+.quarter      { width: 240px; }
+
+.centerify { margin: 0 auto; text-align: center; }

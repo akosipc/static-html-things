@@ -1,0 +1,72 @@
+a { text-decoration: none; }
+
+body {
+  font: 16px/1em 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+nav {
+  position: fixed;
+  background: rgba(33, 33, 56, 0.3);
+  border-bottom: 1px dotted #999;
+  width: 100%;
+  opacity: .7;
+} 
+
+article.floating, nav {
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+nav:hover, nav:focus {
+  opacity: 1;
+  background: rgba(56, 56, 56, 1);
+}
+
+nav ul {
+  padding: 10px;
+  display: block;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  padding: 10px 15px;
+  color: #FFF;
+  font-weight: bold;
+  background: rgba(22, 99, 22, .7);
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+nav ul li a.active {
+  background: rgba(33, 144, 99, 1);
+}
+
+article.floating {
+  position: absolute;
+  height: 200px;
+  width: 40%;
+  top: 40%;
+  left: 0;
+
+  background: rgba(33, 33, 56, 0.3);
+
+  -webkit-border-radius: 0px 25px 25px 0px;
+  -moz-border-radius: 0px 25px 25px 0px;
+  border-radius: 0px 25px 25px 0px;
+  border: 1px dotted #CCC;
+}
+
+article.floating:hover, article.floating:focus {
+  opacity: 1;
+  background: rgba(56, 56, 56, 1);
+}
